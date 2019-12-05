@@ -1,0 +1,100 @@
+﻿div.zxf_pagediv{
+	display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+	width: 1100px;
+	margin: 0 auto;
+	text-align: center;
+	color: #111111;
+margin-left: 40px;
+}
+div.zxf_pagediv a{
+	text-decoration: none;
+	
+}
+div.zxf_pagediv span,div.zxf_pagediv a{
+	display: inline-block;
+	box-sizing: border-box;
+}
+span.disabled{
+	height: 35px;
+	width: 65px;
+	line-height: 35px;
+	/* margin: 0 5px; */
+border: 1px solid #BCBCBC;
+color:#cccccc;
+	
+}
+.current{
+	color: #ffffff;
+	background: #3073F4;
+	width: 50px;
+	height: 35px;
+	line-height: 35px;
+	margin: 0 5 px;
+}
+.zxfPagenum{
+	color: #999999;
+	background: #FFFFFF;
+	width: 50px;
+	height: 35px;
+	line-height: 35px;
+	border: 1px solid #dfdfdf;
+	/* margin: 0 5px; */
+}
+.nextpage{
+	/* color: #d71f1b; */
+	/* margin: 0 5px; */
+	/* border: 1px solid #d71f1b; */
+}
+
+.homePage,.tailPage,.nextbtn,.prebtn{
+	color: #111111;
+	background: #FFFFFF;
+	width: 65px;
+	height: 35px;
+	line-height: 35px;
+	border: 1px solid #BCBCBC;
+}
+.zxfinput{
+	width: 40px;
+	height: 35px;
+	text-align: center;
+	box-sizing: border-box;
+	border: 1px solid #dfdfdf;
+	margin: 0 12px;
+}
+.zxfokbtn{
+	width: 40px;
+	height: 35px;
+	line-height: 35px;
+	border: 1px solid #dfdfdf;
+	position: absolute;
+	right: 0;
+
+    bottom: -2px;
+}
+.toNumber{
+	position: absolute;
+	right: 50px;
+	font-size:16px;
+	height: 35px;
+	line-height: 35px
+}
+
+.pageDetails{
+	position: absolute;
+	right: 165px;
+	font-size:16px;
+	font-weight:400;
+	height: 35px;
+	line-height: 35px;
+color:#666666;
+}
+.homePageDisabled{
+	color:#cccccc;
+}
+.tailPageDisable{
+	color:#cccccc;
+}

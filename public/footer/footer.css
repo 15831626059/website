@@ -1,0 +1,136 @@
+﻿ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+.contentMargin ul {
+    margin-top: 27px;
+    width: 103px;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: PingFangSC-Regular;
+}
+
+.footer {
+    width: 100%;
+    height: 520px;
+    background: rgba(17, 17, 17, 1);
+}
+
+.content {
+    width: 1128px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.titleClass {
+    font-size: 18px;
+    font-family: PingFangSC-Semibold;
+    font-weight: 600;
+    color: rgba(102, 102, 102, 1);
+}
+
+ul>li {
+    color: #BBBBBB;
+}
+
+.beian {
+    width: 458px;
+    height: 48px;
+    font-size: 13px !important;
+    font-family: PingFangSC-Regular;
+    font-weight: 400;
+    color: rgba(102, 102, 102, 1);
+    line-height: 24px;
+    margin-top: 25px;
+}
+
+.tzkt {
+    font-size: 18px;
+    font-family: PingFangSC-Regular;
+    font-weight: 400;
+    color: rgba(187, 187, 187, 1);
+    margin-top: 30px;
+}
+
+.contentMargin {
+    margin-top: 99px;
+}
+
+.contentMarginFrist {
+    margin-right: 100px;
+}
+
+.contentMarginSencond {
+    margin-right: 80px;
+}
+
+.detalisTop {
+    display: flex;
+    align-items: center
+}
+
+.detalisTop>div {
+    margin-left: 8px;
+}
+
+.tzktBox {
+    display: flex;
+    margin-top: 22px;
+}
+
+.tzktAPP {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service {
+    margin-top: 32px;
+}
+
+.leftBox {
+    margin-right: 70px;
+}
+
+.Bottomline {
+    width: 454px;
+    height: 1px;
+    opacity: 0.2;
+    border: 1px solid rgba(153, 153, 153, 1);
+    background: rgba(153, 153, 153, 1);
+    margin-top: 43px;
+}
+
+.telNum {
+    /* width: 315px; */
+    height: 70px;
+    font-size: 60px;
+    font-family: DINAlternate-Bold;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+    line-height: 70px;
+}
+
+.telData {
+    /* width: 189px; */
+    height: 25px;
+    font-size: 18px;
+    font-family: DINAlternate-Bold;
+    font-weight: bold;
+    color: rgba(102, 102, 102, 1);
+    line-height: 21px;
+}
+
+.beian a {
+    text-decoration: none;
+    color: rgba(102, 102, 102, 1)
+}
